@@ -244,3 +244,86 @@
   margin-top: 30px;
   margin-bottom: 70px;
 }
+
+.page-block {
+  overflow-y: auto;
+  z-index: 2;
+
+  padding: 100px;
+}
+
+.page {
+  border-radius: 41px;
+  border: 2px solid #fff;
+
+  background: rgba(255, 255, 255, 0.85);
+
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(15px);
+
+  padding: 25px;
+
+  color: #111;
+
+  font-family: Oswald;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+}
+
+.page__left {
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 165.688%; /* 92.785px */
+  display: flex;
+  flex-direction: column;
+}
+.text2 {
+  color: #111;
+
+  font-family: Roboto;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 155.187%;
+  margin-top: 60px;
+}
+.text4 {
+  color: #111;
+  font-family: Oswald;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 165.688%;
+  margin-top: 50px;
+}
+.text5 {
+  color: #111;
+  font-family: Roboto;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 155.187%;
+  margin-top: 10px;
+}
+
+.text3 {
+  color: #111;
+  font-family: Roboto;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.187%;
+  margin-top: 50px;
+}
+.text6 {
+  color: #111;
+  font-family: Oswald;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 165.688%;
+  margin-top: 50px;
+}
