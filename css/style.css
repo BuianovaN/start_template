@@ -148,7 +148,6 @@
 }
 
 .main {
-
   background: rgba(5, 7, 41, 0.5);
   overflow-y: auto;
   padding-left: 207px;
@@ -216,6 +215,12 @@
   top: 0;
   width: 232px;
   z-index: 5;
+}
+
+.social__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .social__tweet {
   width: 23px;
